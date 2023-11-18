@@ -1,0 +1,7 @@
+[11/18/2023 3:39:09 PM] Exception: One or more errors occurred. (The subscription '10721b1c-edf7-400a-aa09-c775fac3b3b4' could not be found.)
+StackTrace:    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at PipelineRunner.RunPipeline(String resourceGroup, String dataFactoryName, String pipelineName, Dictionary`2 parameters) in C:\Users\ateeq\source\repos\empower_assessment_app\PipelineRunner.cs:line 29
+   at Program.callPipeline(String TableName, String tableKey) in C:\Users\ateeq\source\repos\empower_assessment_app\Program.cs:line 121
+----------------------------------------
