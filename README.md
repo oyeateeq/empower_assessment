@@ -38,8 +38,7 @@ This C# console application provides functionality to interact with Azure servic
 4. **Select Operation:**
     - Upon running the application, you'll be prompted to choose an operation:
       - Type `1` to run an Azure Data Factory pipeline.
-      - Type `2` to monitor an Azure Data Factory job.
-      - Type `3` to search data in Azure SQL using Cognitive Search.
+      - Type `2` to search data in Azure SQL using Cognitive Search.
 
 5. **Follow On-Screen Instructions:**
    - Depending on the selected operation, the application will guide you through the necessary steps.
